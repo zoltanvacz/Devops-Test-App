@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-        version = "1.0"
+        version = "1.2"
         return 'Version: ' +version
 
 if __name__ == '__main__':
